@@ -23,29 +23,3 @@ function calculate () {
 }
 
 
-function is_even(a) {
-    return a % 2 == 0;
-}
-
-function add(a, b) {
-    return a + b;
-}
-
-function sub(a,b) {
-    return a - b;
-}
-
-function mul(a, b) {
-    return a * b;
-}
-
-function div(a, b) {
-    return a / b;
-}
-    
-    var x = document.querySelector("body")
-    var y = document.querySelector("buttons")
-
-function lightbutton() {
-    x.classList.toggle("dark")
-}
